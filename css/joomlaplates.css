@@ -59,7 +59,9 @@
 /* Logo 
  ========================================================================== */
 .logo {
-	float:left;
+	position:fixed;
+	top:10px;
+	right: 10px;
 }
 .logo p {
 	margin:0!important;
@@ -67,7 +69,7 @@
 /* Mainmenu 
  ========================================================================== */
 .menu-inner {
-	float:right;
+	/*float:right;*/
 }
 .tm-navbar, .tm-headerbar {
 	margin:0!important;
