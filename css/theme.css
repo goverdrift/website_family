@@ -7635,6 +7635,7 @@ a.uk-thumbnail:focus {
 .uk-container-center {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 /* Clearing
  ========================================================================== */
@@ -9497,7 +9498,7 @@ body {
 /* UK Container
  ========================================================================== */
 .uk-container {
-  padding: 0 20px;
+  /*padding: 0 20px;*/
 }
 /* Toolbar L & Toolbar R
  ========================================================================== */
