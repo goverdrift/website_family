@@ -1,3 +1,0 @@
-Logo-Pink:      #e63682    (Menu)
-Dunkelgrau:     #797574    (Schrift sonst)
-Hellgrau:       #c0bcbb    (Footer)
