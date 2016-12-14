@@ -22,11 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="187">
+              <caret line="134" column="29" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="responsiveslides.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slideshow/responsiveslides.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="165" column="14" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="517" column="13" selection-start-line="517" selection-start-column="13" selection-end-line="517" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -43,6 +63,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/slideshow/responsiveslides.css" />
+        <option value="$PROJECT_DIR$/template.css" />
       </list>
     </option>
   </component>
@@ -59,10 +81,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="547" />
-    <option name="y" value="-8" />
-    <option name="width" value="1381" />
-    <option name="height" value="1056" />
+    <option name="x" value="555" />
+    <option name="width" value="682" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,15 +222,15 @@
       <workItem from="1481468753560" duration="15000" />
       <workItem from="1481468815838" duration="1008000" />
       <workItem from="1481472635998" duration="614000" />
-      <workItem from="1481738560905" duration="3104000" />
+      <workItem from="1481738560905" duration="4290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4741000" />
+    <option name="totallyTimeSpent" value="5927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="547" y="-8" width="1381" height="1056" extended-state="6" />
+    <frame x="555" y="0" width="682" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -263,8 +284,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        <state relative-caret-position="187">
+          <caret line="134" column="29" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slideshow/responsiveslides.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="165" column="14" selection-start-line="165" selection-start-column="14" selection-end-line="165" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="517" column="13" selection-start-line="517" selection-start-column="13" selection-end-line="517" selection-end-column="13" />
           <folding />
         </state>
       </provider>
