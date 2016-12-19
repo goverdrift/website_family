@@ -67,7 +67,6 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (min-width: 640px) { 
 #rightbar-w {float:right;}
 #leftbar-w {float:left;}
-#wrapper {padding: 5px;}
 #bottomwide {margin: 0 10px;}
 }
 
