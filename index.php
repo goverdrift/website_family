@@ -30,25 +30,27 @@
 			<nav class="clearfix">
 					<div id="nav"><jdoc:include type="modules" name="mainmenu" style="none" /></div>
 					<a href="#" id="pull"></a>
-			</nav>			
+			</nav>
 
-<div id="main-content">	
+	<div id="slideshow-content">
+		<!-- Slideshow -->
+		<div id="slideshow"><?php if ($this->params->get( 'slidehome' )) : ?>
+				<?php $app = JFactory::getApplication(); $menu = $app->getMenu(); $lang = JFactory::getLanguage();
+				if ($menu->getActive() == $menu->getDefault($lang->getTag())) : ?>
+					<?php include "slideshow/slideshow.php"; ?><?php endif; ?>
+			<?php else : ?>
+				<?php include "slideshow/slideshow.php"; ?><?php endif; ?>
+		</div>
+		<!-- END Slideshow -->
+	</div>
 
-<!-- Slideshow -->
-	<div id="slideshow"><?php if ($this->params->get( 'slidehome' )) : ?>	
-		<?php $app = JFactory::getApplication(); $menu = $app->getMenu(); $lang = JFactory::getLanguage();
-			if ($menu->getActive() == $menu->getDefault($lang->getTag())) : ?>
-			<?php include "slideshow/slideshow.php"; ?><?php endif; ?>
-		<?php else : ?>
-			<?php include "slideshow/slideshow.php"; ?><?php endif; ?>
-	</div>
-<!-- END Slideshow -->		
-	
-	<div id="topwide">
-			<div class="top1"><jdoc:include type="modules" name="top1" style="xhtml" /></div>
-			<div class="top2"><jdoc:include type="modules" name="top2" style="xhtml" /></div>
-			<div class="top3"><jdoc:include type="modules" name="top3" style="xhtml" /></div>		
-	</div>
+	<div id="main-content">
+
+	<!--<div id="topwide">
+		<div class="top1"><jdoc:include type="modules" name="top1" style="xhtml" /></div>
+		<div class="top2"><jdoc:include type="modules" name="top2" style="xhtml" /></div>
+		<div class="top3"><jdoc:include type="modules" name="top3" style="xhtml" /></div>
+	</div>-->
 	
     <?php if($this->countModules('left') xor $this->countModules('right')) $maincol_sufix = '_one';
 	  elseif(!$this->countModules('left') and !$this->countModules('right'))$maincol_sufix = '_none';
