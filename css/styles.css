@@ -12,7 +12,7 @@ h2.item-page-title a, .leading-0 a, h1, h2, h3, h4, a:link, a:visited , .page-he
 a:hover { text-decoration: underline; color: #555; background:none;}
 a.disable {pointer-events: none;}
 .logo-container { position:absolute; max-width:315px; max-height:auto;right:10px;}
-.logo img {width:100%; height:auto; padding-top: 15px;}
+.logo img {width:80%; height:auto;}
 .logo img:hover {opacity:0.6;}
 .logo a {color:#555; text-decoration:none; font-size:56px;}
 .slogan { color: #C4C4C4;font-size: 13px;right: 198px;position: absolute;top: 56px;}
@@ -35,7 +35,7 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 
 /* Max-Width */
 /* Max-width for the navigation, main-content-, and footer-container */
-.clearfix, div#main-content, div#bottomwide{ max-width:980px; margin: 0 auto; }
+.clearfix, div#main-content, div#bottomwide{ max-width:1280px; margin: 0 auto; }
 
 /* Styles for screen 960px and higher */
 @media screen and (min-width: 960px) { 
