@@ -135,13 +135,13 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 
 /* Navigation */
 
-#nav {margin: auto;position: relative;z-index: 10; margin:10px; margin-bottom: 50px; height: 49px; border-bottom: 3px solid #444444; }
+#nav {margin: auto;position: relative;z-index: 10; margin:10px; margin-bottom: 50px; height: 44px; border-bottom: 2px solid #918b87; }
 #nav ul li ul li {padding: 0; height:auto; width:180px; margin:0 auto; border:none; text-align: left;}
 #nav:after, #nav ul:after { content: ''; display: block; clear: both; }
 #nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 12px; line-height: 47px; padding: 0 20px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
 #nav ul li {list-style:none;float:left;position:relative; padding-right:0px 20px; margin:0; margin-right:5px; }
-#nav ul li a {color: #555555;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 16px;font-weight: normal;padding: 0 8px;text-align: left;text-shadow: none; border-right:none;}
+#nav ul li a {color: #918b87;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 17px;font-weight: bold;padding: 0 35px 0 0;text-align: left;text-shadow: none; border-right:none;}
 #nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
 /*#nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }*/
 #nav ul li:first-child > a { border-radius: 5px 0 0 0; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; }
@@ -151,7 +151,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav ul li ul {display:none;width:900px;border-top:0; margin:0; padding:0; }
 #nav ul li:hover ul {position:absolute; display: block;}
 #nav ul li ul li:hover ul {left:180px; top:0;}
-#nav ul li:hover ul li a {border-radius:0; border:none;}
+#nav ul li:hover ul li a {border-radius:0; border:none; font-size:16px; font-weight:normal;}
 #nav ul li ul li:hover:after {border-bottom:none; margin-left: -10px; }
 #nav ul li ul li ul li:hover ul {left:180px;}
 
