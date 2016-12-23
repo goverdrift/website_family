@@ -4655,6 +4655,7 @@ a.badge:focus {
 }
 .pull-left {
 	float: left;
+	width: 50%;
 }
 .hide {
 	display: none;
@@ -7090,6 +7091,7 @@ h6 {
 .img_caption.none {
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
 }
 #aside .nav .nav-child {
 	border-left: 2px solid #ddd;
