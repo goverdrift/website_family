@@ -188,9 +188,10 @@ textarea {
 }
 body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 22px;
-	line-height: 29px;
+	line-height: 30px;
 	color: #333;
 	background-color: #fff;
 	background-image: url("../images/01_HIGRU_NEU_weiss.jpg");
