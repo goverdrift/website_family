@@ -83,12 +83,15 @@
 
 		
 	<div id="bottomwide">
-		<div id="bottom" class="clearfix">
+<!--		<div id="bottom" class="clearfix">
 			<div class="user1"><jdoc:include type="modules" name="user1" style="xhtml" /></div>
 			<div class="user2"><jdoc:include type="modules" name="user2" style="xhtml" /></div>
 			<div class="user2"><jdoc:include type="modules" name="user3" style="xhtml" /></div>
-		</div>
-			<div class="tgwide" ><div id="tg"></div></div>
+		</div>-->
+			<div class="tgwide" >
+				<?php
+					if (JURI::base() == JURI::current()) {echo '<div class="jay"><a href="#">Impressum</a> | &copy; Copyright ' . date('Y') . " - <a href='http://www.freshjoomlatemplates.com/' title='joomla' target='_blank'>Joomla 3.4 Design</a>"; if ($this->params->get( 'footerdisable' )) {echo ' - ' . $footertext . '</div>';}} else {echo '<div class="jay"><a href="#">Impressum</a> | &copy; Copyright ' . date('Y'); if ($this->params->get( 'footerdisable' )) {echo ' - ' . $footertext . '</div>';}}
+				?>
 			<div style="display:none;" class="nav_up" id="nav_up"></div>			
 	</div>
 </div><!-- wrapper end -->	
