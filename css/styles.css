@@ -138,10 +138,10 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav {margin: auto;position: relative;z-index: 10; margin:10px; margin-bottom: 50px; height: 44px; border-bottom: 2px solid #918b87; }
 #nav ul li ul li {padding: 0; height:auto; width:180px; margin:0 auto; border:none; text-align: left;}
 #nav:after, #nav ul:after { content: ''; display: block; clear: both; }
-#nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 12px; line-height: 47px; padding: 0 20px; text-decoration: none; }
+#nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; line-height: 47px; padding: 0 20px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
 #nav ul li {list-style:none;float:left;position:relative; padding-right:0px 20px; margin:0; margin-right:5px; }
-#nav ul li a {color: #918b87;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 17px;font-weight: bold;padding: 0 35px 0 0;text-align: left;text-shadow: none; border-right:none;}
+#nav ul li a {color: #918b87;display: block;font-family:  'Alegreya Sans', sans-serif;font-weight: bold;padding: 0 18px 0 0;text-align: left;text-shadow: none; border-right:none;}
 #nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
 /*#nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }*/
 #nav ul li:first-child > a { border-radius: 5px 0 0 0; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; }
@@ -200,7 +200,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 
 
 #maincol {position: relative;}
-#wrapper {position: relative; background-color: #FFFFFF; margin-top:10px; margin-bottom:10px;}
+#wrapper {position: relative; margin-top:10px; margin-bottom:10px;}
 
 
 #leftcolumn{margin-left:9px;padding:0px;max-width:185px;float:left;}
@@ -221,7 +221,7 @@ ul.archive li { list-style:none; padding:0 0 0 10px;}
 .archive .article-count {color:#999;}
 .blog-featured {background:#fff;}
 .items-row {position: relative;clear:both;}
-.item-page { position:relative; background:#fff; padding: 0 7px 7px 7px;}
+.item-page { position:relative; padding: 0 7px 7px 7px;}
 h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-size:25px; font-weight:normal; font-family:  'Alegreya Sans', sans-serif;}
 h2.item-page-title a, .leading-0 a, .page-header h2 a {padding: 5px 0 0px 0; color:#e63682;}
 h2.item-page-title a:hover, .leading-0 a:hover, .page-header h2 a:hover{text-decoration: underline;}
@@ -398,7 +398,7 @@ div.panelz {height: 20px; display: none; width: 90px; float: right; text-align: 
 .top1  h3, .top2  h3, .top3  h3 {color:#555; font-weight:bold; font-family: 'tahoma', sans-serif; font-size:16px; margin:0px; text-shadow:none;}
 .top1, .top2, .top3 { background:none; color:#555; border:0; border-radius:5px; padding: 0px 5px 6px 15px; float: left; max-width: 250px; margin: 10px 20px 5px 20px; text-shadow: 0 1px #fff;}
 
-#wrapper-w { background:#fff; position:relative}
+#wrapper-w { position:relative}
 .jay  {margin:0 0 0 -450px; padding:0; z-index: 10; font-size:10px; color:#c4c4c4; text-align:right; text-shadow:none; bottom:5px; left:50%; line-height:6px; height:10px; position:absolute;}
 .jay a, .jay a:hover {color:#c4c4c4; cursor: text; text-decoration:none;}
 
