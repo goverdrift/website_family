@@ -223,7 +223,7 @@ ul.archive li { list-style:none; padding:0 0 0 10px;}
 .items-row {position: relative;clear:both;}
 .item-page { position:relative; padding: 0 7px 7px 7px;}
 .item-page p {width: 48%;float:right;}
-h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-size:25px; font-weight:normal; font-family:  'Alegreya Sans', sans-serif;}
+h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-size:25px; font-weight:normal; font-family:  'Alegreya Sans', sans-serif; width: 48%; float: right; color: #e63682;}
 h2.item-page-title a, .leading-0 a, .page-header h2 a {padding: 5px 0 0px 0; color:#e63682;}
 h2.item-page-title a:hover, .leading-0 a:hover, .page-header h2 a:hover{text-decoration: underline;}
 

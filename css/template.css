@@ -653,7 +653,6 @@ h4 small {
 .page-header {
 	padding-bottom: 8px;
 	margin: 18px 0 27px;
-	border-bottom: 1px solid #eee;
 }
 ul,
 ol {
@@ -2839,11 +2838,6 @@ input[type="submit"].btn.btn-mini {
 }
 .nav > li > a {
 	display: block;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-	text-decoration: none;
-	background-color: #eee;
 }
 .nav > li > a > img {
 	max-width: none;
@@ -7096,9 +7090,8 @@ h6 {
 	background: #bbb;
 	opacity: 0.7;
 	color: #fff;
-	margin-top: -28px;
-	padding: 5px 0;
-	font-size: 150%;
+	margin-top: -29px;
+	font-size: 18px;
 }
 
 .img_caption.none {
