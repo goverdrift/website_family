@@ -3,8 +3,8 @@
 	margin: 0 auto;
 	position: relative;
 	background: url(../images/loader.gif) center center no-repeat;
-	max-width: 100%;
 	overflow: hidden;
+	float:left;
 }
 .djslider-default {
 	margin: 0 auto;

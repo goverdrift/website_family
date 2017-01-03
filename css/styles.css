@@ -136,7 +136,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 /* Navigation */
 
 #nav {margin: auto;position: relative;z-index: 10; margin:10px; margin-bottom: 50px; height: 44px; border-bottom: 2px solid #918b87; }
-#nav ul li ul li {padding: 0; height:auto; width:180px; margin:0 auto; border:none; text-align: left;}
+#nav ul li ul li {padding: 0 16px 0 0; height:auto; margin:0 auto; border:none; text-align: left;}
 #nav:after, #nav ul:after { content: ''; display: block; clear: both; }
 #nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; line-height: 47px; padding: 0 20px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
@@ -268,6 +268,11 @@ td.list-date { width:15%;text-align:center;}
 .column-1, .column-2, .column-3, .column-4 { position:relative;margin:0 0 20px 0; padding:1%;}
 .items-leading {border: 1px solid #e1e1e1; box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset; clear: both;margin: 0 0 -2px;padding: 5px 10px;position: relative; border-radius:4px;}
 .items-leading h2, .items-row h2 {font-size:26px; margin:0; padding:12px 0;}
+
+/* modultable for article-inline-text-slideshow*/
+div.moduletable {
+    float: left;
+}
 
 /* Contact styles */
 th.item-num, th.item-title,th.item-position,th.item-phone,th.item-suburb,th.item-state { background:#3F332E url(../images/h3.png) 0 0 repeat-x; padding: 2px 2px 2px 7px; border-right:1px solid #fff; color:#fff; text-align:left;}
