@@ -176,7 +176,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav ul li.active:after {border-bottom:none; margin-left: -10px; }
 #nav ul li.active > a { color: #e63682; }
 #nav ul li:hover > a { color: #e63682; }
-#nav ul li ul {display:none;border-top:0; margin:0; padding:0; position:absolute;}
+#nav ul li ul {display:none;border-top:0; padding:0; position:absolute;}
 #nav ul li:hover ul {display: block;}
 #nav ul li ul li a {border-radius:0; border:none; font-weight:normal;}
 #nav ul li ul li:hover:after {border-bottom:none; margin-left: -10px; }
