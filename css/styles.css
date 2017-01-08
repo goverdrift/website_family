@@ -248,8 +248,7 @@ ul.archive li { list-style:none; padding:0 0 0 10px;}
 .blog-featured {background:#fff;}
 .items-row {position: relative;clear:both;}
 .item-page { position:relative; padding: 0 7px 7px 7px;}
-.item-page p {width: 48%;float:right;}
-h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-size:25px; font-weight:normal; font-family:  'Alegreya Sans', sans-serif; width: 48%; float: right; color: #e63682;}
+h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-size:25px; font-weight:normal; font-family:  'Alegreya Sans', sans-serif; color: #e63682;}
 h2.item-page-title a, .leading-0 a, .page-header h2 a {padding: 5px 0 0px 0; color:#e63682;}
 h2.item-page-title a:hover, .leading-0 a:hover, .page-header h2 a:hover{text-decoration: underline;}
 
@@ -295,9 +294,14 @@ td.list-date { width:15%;text-align:center;}
 .items-leading {border: 1px solid #e1e1e1; box-shadow: 0 0 2px rgba(0, 0, 0, 0.1) inset; clear: both;margin: 0 0 -2px;padding: 5px 10px;position: relative; border-radius:4px;}
 .items-leading h2, .items-row h2 {font-size:26px; margin:0; padding:12px 0;}
 
-/* modultable for article-inline-text-slideshow*/
-div.moduletable {
-    float: left;
+/* article-slideshow should be left and the article text right */
+div.sliderRight {
+    float:left;
+    margin-right: 20px;
+}
+div.textLeft {
+    width: 50%;
+    float: right;
 }
 
 /* Contact styles */
