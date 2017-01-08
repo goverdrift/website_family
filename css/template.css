@@ -5698,7 +5698,7 @@ a.badge:focus {
 .small {
 	font-size: 11px;
 }
-iframe,
+/*iframe,*/
 svg {
 	max-width: 100%;
 }
