@@ -39,8 +39,8 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
     /* Max-Width */
     /* Max-width for the navigation, main-content-, and footer-container */
     .clearfix, div#main-content{ max-width:1280px; margin: 0 auto; }
-    #nav ul li ul {width:1128px;}
-    #nav ul li ul li a {font-size:16px;}
+    #nav ul li ul {width:1260px;}
+    #nav ul li ul li a {font-size:17px;}
     #sidebar {width:220px;}
     #centercontent_both {width: 52%; margin-left: 10px;}
     #centercontent_one {width:74%; margin-left: 19px;}
@@ -50,13 +50,14 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (min-width: 960px) and (max-width: 1279px){
     nav { border: 2px solid red;}
     #nav ul li ul {width:960px;}
-    #nav ul li ul li a {font-size:14px; padding:0 3px 0 0;}
+    #nav ul li ul li a {font-size:14px; padding:0 6px 0 0;}
 
 }
 
 /*Styles for screen 960px and higher*/
 @media screen and (min-width: 960px) {
     #nav ul li ul { /*If 'Dienstleistungen' is the only submenu*/ margin-left:-77px;}
+    #nav ul li ul li {padding-bottom:50px;} /* padding-bottom: is for a more comfortable mouse-over*/
 
 }
 
@@ -166,7 +167,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 /* Navigation */
 
 #nav {margin: auto;position: relative;z-index: 10; margin:10px; margin-bottom: 50px;}
-#nav ul li ul li {padding: 0 16px 0 0; height:auto; margin:0 auto; border:none; text-align: left;}
+#nav ul li ul li {padding-right: 16px; height:auto; margin:0 auto; border:none; text-align: left;}
 #nav:after, #nav ul:after { content: ''; display: block; clear: both; }
 #nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; line-height: 47px; padding: 0 20px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
