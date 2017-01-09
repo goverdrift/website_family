@@ -38,8 +38,9 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (min-width: 1280px) {
     /* Max-Width */
     /* Max-width for the navigation, main-content-, and footer-container */
-    .clearfix, div#main-content, div#bottomwide{ max-width:1280px; margin: 0 auto; }
+    .clearfix, div#main-content{ max-width:1280px; margin: 0 auto; }
     #nav ul li ul {width:1128px;}
+    #nav ul li ul li a {font-size:16px;}
     #sidebar {width:220px;}
     #centercontent_both {width: 52%; margin-left: 10px;}
     #centercontent_one {width:74%; margin-left: 19px;}
@@ -49,12 +50,14 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (min-width: 960px) and (max-width: 1279px){
     nav { border: 2px solid red;}
     #nav ul li ul {width:960px;}
+    #nav ul li ul li a {font-size:14px; padding:0 3px 0 0;}
+
 }
 
 /*Styles for screen 960px and higher*/
 @media screen and (min-width: 960px) {
     #nav ul li ul { /*If 'Dienstleistungen' is the only submenu*/ margin-left:-77px;}
-    #nav ul li ul li a {font-size:16px;}
+
 }
 
 /* Styles for screen 640px to 960px */
@@ -84,7 +87,6 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (min-width: 640px) {
 #rightbar-w {float:right;}
 #leftbar-w {float:left;}
-#bottomwide {margin: 0 10px;}
 
 /* Navigation for all screens over 640px (No tablets) */
     #nav{border-bottom: 2px solid #918b87;}
@@ -96,8 +98,8 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (max-width: 639px) {
     nav {border: 2px solid green;}
 nav { float: left; height: auto ; letter-spacing: 0;margin:0;position: relative; bottom: 70px; z-index: 10; margin: -35px 4px 20px 30px;}
-nav ul { position:absolute;width: 500px;display: block; height: auto;}
-nav li{ width: 50%; float: left; position: relative; z-index:10;}
+nav ul { position:absolute;display: block; height: auto;}
+nav li{float: left; position: relative; z-index:10;}
 nav ul li a {display: block; padding: 25px 20px;color: #757575; text-decoration: none;}
 nav li a { border-bottom: 1px solid #cccccc; border-right: 1px solid #576979; }
 nav a { text-align: left; width: 100%; text-indent: 15px; }
@@ -108,16 +110,17 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav a {background: #fefefe; background: -moz-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec)); background: -webkit-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -o-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -ms-linear-gradient(top, #fefefe 0%, #ececec 100%); background: linear-gradient(top, #fefefe 0%, #ececec 100%); color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 12px; line-height: 47px; padding: 0 10px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
 #nav ul li {list-style:none;float:left;position:relative; padding-right:0px 20px; margin:0; margin-right:5px; }
-#nav ul li a {color: #555555;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 14px;font-weight: normal;padding: 0;text-align: left;text-shadow: none; border-right:none;}
+#nav ul li a {width: 150px; color: #555555;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 13px;font-weight: normal;padding: 0;text-align: left;text-shadow: none; border-right:none;}
 #nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
 #nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }
 #nav ul li:first-child > a { border-radius: 5px 0 0 0; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; }
 #nav ul li.active > a { -moz-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); background: #ececec; background: -moz-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ececec), color-stop(100%, #ffeeff ef)); background: -webkit-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: -o-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: -ms-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: linear-gradient(top, #ececec 0%, #ffeeff ef 100%); }
 #nav ul li:hover > a { background: #ececec; background: -moz-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ececec), color-stop(100%, #ffeeff ef)); background: -webkit-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: -o-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: -ms-linear-gradient(top, #ececec 0%, #ffeeff ef 100%); background: linear-gradient(top, #ececec 0%, #ffeeff ef 100%); -moz-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1); }
-#nav ul li ul {position:absolute;width:180px;left:-999em;border-top:0; margin:0; padding:0; }
-#nav ul li ul:hover  {position:absolute;width:180px;left:-999em;border-top:0; margin:0; padding:0; }
+#nav ul li ul {display:none;position:absolute;border-top:0; margin-left:-82px; padding:0; }
+#nav ul li ul:hover  {display:block;position:absolute;border-top:0; margin:0; padding:0; }
 #nav ul li:hover ul {left:0;}
 #nav ul ul ul{display:none;}
+#nav ul li ul li a {width: 220px;}
 #nav ul li ul li:hover ul {left:100%; top:0; display: block;}
 #nav ul li:hover ul {left:100%; top:0; display:none;}
 #nav ul li:hover ul li a {border-radius:0; border:none;}
@@ -131,12 +134,11 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
     }
 
 .slogan {left:8px;}
-#bottomwide {margin:0 11px;}
 #rightbar-w {width:100%;}
 #leftbar-w {width:100%;}
 #centercontent_both {width:100%;}
 #main-content {padding:0;}
-#wrapper {padding:padding: 15px 3px;}
+#wrapper {padding: 15px 3px;}
 .cols-3 .column-1 , .cols-3 .column-2, .cols-3 .column-3 {width:98%;}
 }
 
@@ -435,11 +437,11 @@ div.panelz {height: 20px; display: none; width: 90px; float: right; text-align: 
 .top1, .top2, .top3 { background:none; color:#555; border:0; border-radius:5px; padding: 0px 5px 6px 15px; float: left; max-width: 250px; margin: 10px 20px 5px 20px; text-shadow: 0 1px #fff;}
 
 #wrapper-w { position:relative}
-.jay  {font-size:13px; color:#c4c4c4;}
+.jay  {font-size:13px; color:#c4c4c4;max-width: 1280px; margin: 0 auto;}
 .jay a, .jay a:hover {color:#c4c4c4; cursor: text; text-decoration:none;}
 
-#bottomwide {position: relative;}
-#bottom {max-width:980px; margin: auto; height:100%; padding-bottom:10px;  position: relative; background: none;}
+#bottomwide {position:absolute; width: 100%; margin-bottom:-20px;bottom:0;}
+#bottom {max-width:980px; margin: auto; height:100%; padding-bottom:10px; background: none;}
 #bottom:before,#bottom:after {content:"";display:table;}
 .user1  h3, .user2  h3, .user3  h3 {color:#555; font-weight:bold; font-family: 'tahoma', sans-serif; font-size:16px; margin:0px; text-shadow:none;}
 .user1, .user2, .user3 { background:none; color:#555; border:0; border-radius:5px; padding: 0px 10px 6px 14px; float: left; max-width: 250px; margin: 10px 20px 5px 20px; text-shadow: 0 1px #fff;}
