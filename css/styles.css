@@ -33,6 +33,10 @@ element.style { height:auto;}
 hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0; padding:0;}
 .clr {clear: both;}
 
+/* google maps iframe */
+.googleMaps {
+    width:100%;
+}
 
 /* Styles for screen 1280px and higher */
 @media screen and (min-width: 1280px) {
@@ -40,7 +44,7 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
     /* Max-width for the navigation, main-content-, and footer-container */
     .clearfix, div#main-content{ max-width:1280px; margin: 0 auto; }
     #nav ul li ul {width:1260px;}
-    #nav ul li ul li a {font-size:17px;}
+    #nav ul li ul li a {font-size:18px;padding:0 35px 0 0; }
     #sidebar {width:220px;}
     #centercontent_both {width: 52%; margin-left: 10px;}
     #centercontent_one {width:74%; margin-left: 19px;}
@@ -50,15 +54,15 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 @media screen and (min-width: 960px) and (max-width: 1279px){
     nav { border: 2px solid red;}
     #nav ul li ul {width:960px;}
-    #nav ul li ul li a {font-size:14px; padding:0 6px 0 0;}
+    #nav ul li ul li a {font-size:14px; padding:0 25px 0 0;}
 
 }
 
 /*Styles for screen 960px and higher*/
 @media screen and (min-width: 960px) {
+    #nav { margin-bottom:50px; }
     #nav ul li ul { /*If 'Dienstleistungen' is the only submenu*/ margin-left:-77px;}
     #nav ul li ul li {padding-bottom:50px;} /* padding-bottom: is for a more comfortable mouse-over*/
-    #nav ul li ul li a {font-size:16px;}
     /* article-slideshow should be left and the article text right */
     div.sliderRight {
         float:left;
@@ -83,7 +87,7 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 /* Styles for screen 959px and lower */
 @media screen and (max-width: 959px) {
     nav { border: 2px solid yellow;}
-    #main-content, #slideshow, #pull {margin-left:0px; margin-right: 10px;}
+    #main-content, #slideshow, #pull {margin-left:5px; margin-right: 5px;}
     .user3  {display:none;}
     #nav {max-width: 99%;}
     #tg {margin-right:10px; background-color: none repeat scroll 0 0 #000; width:100%;}
@@ -94,6 +98,9 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 
 /*Styles for screen 640px and higher*/
 @media screen and (min-width: 640px) {
+    body{
+        padding:0 10px;
+    }
     #nav {position: relative;}
 #header-w {margin-bottom: 14px;}
 #rightbar-w {float:right;}
@@ -104,6 +111,7 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 /* Navigation for all screens over 640px (No tablets) */
     #nav{border-bottom: 2px solid #918b87;}
     #nav ul li a {padding: 0 18px 0 0;}
+    h2.item-page-title, .page-header h2{font-size: 25px;}
 
 }
 
@@ -111,7 +119,7 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
 /*Styles for screen 640px and lower*/
 @media screen and (max-width: 639px) {
     nav {border: 2px solid green;}
-nav { float: left; height: auto ; letter-spacing: 0;position: relative; bottom: 85px; z-index: 10; margin: -30px 0px 20px 15px;}
+nav { float: left; height: auto ; letter-spacing: 0;position: relative; bottom: 85px; z-index: 10; margin: -30px 0px 20px 30px;}
     nav ul { position:absolute;width: 265px;display: block; height: auto;}
     nav li{ width: 50%; float: left; position: relative; z-index:10;}
 nav ul li a {display: block; padding: 25px 20px;color: #757575; text-decoration: none;}
@@ -121,10 +129,10 @@ nav ul  { display: none; height: auto; }
 nav a#pull { background-color: #283744; width: 100%; position: absolute;top:20px; left:5px;}
 nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute; top: -20px; right:0;}
 
-#nav {position: absolute;}
+#nav {position: absolute;bottom:12px; margin-left:17px;}
 #nav a {background: #fefefe; background: -moz-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec)); background: -webkit-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -o-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -ms-linear-gradient(top, #fefefe 0%, #ececec 100%); background: linear-gradient(top, #fefefe 0%, #ececec 100%); color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 12px; line-height: 47px; padding: 0 10px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
-#nav ul li {list-style:none;float:left;position:relative; padding-right:0px 20px; margin:0; margin-right:5px; }
+#nav ul li {list-style:none;float:left;position:relative; padding-right:1px; margin:0; margin-right:5px; }
     #nav ul li a {color: #555555;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 14px;font-weight: normal;padding: 0;text-align: left;text-shadow: none; border-right:none;}
 #nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
 #nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }
@@ -141,6 +149,9 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav ul li:hover ul li a {border-radius:0; border:none;}
 #nav ul li:hover ul li ul li a {border-radius:0; display:none;}
 #nav ul li ul li:hover ul li a {border-radius:0; display:block;}
+
+    .page-header h2{text-align:center; font-size: 30px;}
+    div.textLeft{margin-top:10px;}
 
 /* Logo */
     .logo img {
@@ -182,8 +193,8 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 
 /* Navigation */
 
-#nav {margin: auto;z-index: 10; margin:10px; margin-bottom: 50px;}
-#nav ul li ul li {padding: 0 16px 0 0; height:auto; margin:0 auto; border:none; text-align: left;}
+#nav {z-index: 10;}
+#nav ul li ul li {height:auto; margin:0 auto; border:none; text-align: left;}
 #nav:after, #nav ul:after { content: ''; display: block; clear: both; }
 #nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; line-height: 47px; padding: 0 20px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
@@ -267,7 +278,7 @@ ul.archive li { list-style:none; padding:0 0 0 10px;}
 .blog-featured {background:#fff;}
 .items-row {position: relative;clear:both;}
 .item-page { position:relative;}
-h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-size:25px; font-weight:normal; font-family:  'Alegreya Sans', sans-serif; color: #e63682;}
+h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-weight:normal; font-family:  'Alegreya Sans', sans-serif; color: #e63682;}
 h2.item-page-title a, .leading-0 a, .page-header h2 a {padding: 5px 0 0px 0; color:#e63682;}
 h2.item-page-title a:hover, .leading-0 a:hover, .page-header h2 a:hover{text-decoration: underline;}
 
