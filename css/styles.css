@@ -94,6 +94,12 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
     .footer-right {display:none;}
     #social {display:none;}
     .callbacks_container {padding:0; margin:0;}
+    /* Logo */
+    .logo img {
+        float: right;
+        width:60%;
+    }
+
 }
 
 /*Styles for screen 640px and higher*/
@@ -153,11 +159,6 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
     .page-header h2{text-align:center; font-size: 30px;}
     div.textLeft{margin-top:10px;}
 
-/* Logo */
-    .logo img {
-        float: right;
-        width:60%;
-    }
 
 .slogan {left:8px;}
 #bottomwide {margin:0 11px;}
@@ -175,7 +176,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 @media \0screen {img { width: auto; /* for ie 8 */}}
 
 /* Header */
-#header { position:relative; height:85px; }
+#header { position:relative; height:110px; }
 #header-w {position:relative; margin-top:12px;}
 .top {color:#fff;max-width:450px;overflow:hidden; padding:20px 0 0 0; margin:0 0 0 500px;z-index:1;}
 .top a {color:#fff; text-decoration:underline}
