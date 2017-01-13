@@ -48,7 +48,7 @@ p.contact {
     /* Max-width for the navigation, main-content-, and footer-container */
     .clearfix, div#main-content, .logo-container{ max-width:1280px; margin: 0 auto; }
     #nav ul li ul {width:1260px;}
-    #nav ul li ul li a {font-size:18px;padding:0 35px 0 0; }
+    #nav ul li ul li a {font-size:15px;padding:0 30px 0 0; }
     #sidebar {width:220px;}
     #centercontent_both {width: 52%; margin-left: 10px;}
     #centercontent_one {width:74%; margin-left: 19px;}
@@ -58,7 +58,7 @@ p.contact {
 /* Style for screen 960px to 1280px */
 @media screen and (min-width: 960px) and (max-width: 1279px){
     #nav ul li ul {width:960px;}
-    #nav ul li ul li a {font-size:14px; padding:0 25px 0 0;}
+    #nav ul li ul li a {font-size:12px; padding:0 17px 0 0;}
     .logo img{float:right;}
 
 }
