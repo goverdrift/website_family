@@ -149,7 +149,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav a {background: #fefefe; background: -moz-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fefefe), color-stop(100%, #ececec)); background: -webkit-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -o-linear-gradient(top, #fefefe 0%, #ececec 100%); background: -ms-linear-gradient(top, #fefefe 0%, #ececec 100%); background: linear-gradient(top, #fefefe 0%, #ececec 100%); color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; font-size: 12px; line-height: 47px; padding: 0 10px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
 #nav ul li {list-style:none;float:left;position:relative; padding-right:1px; margin:0; margin-right:5px; }
-    #nav ul li a {color: #555555;display: block;font-family:  'Alegreya Sans', sans-serif;font-size: 14px;font-weight: normal;padding: 0;text-align: left;text-shadow: none; border-right:none;}
+    #nav ul li a {color: #555555;display: block;font-family: 'Poppins', sans-serif;font-size: 14px;font-weight: normal;padding: 0;text-align: left;text-shadow: none; border-right:none;}
 #nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
 #nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }
 #nav ul li:first-child > a { border-radius: 5px 0 0 0; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; }
@@ -210,7 +210,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav a {color: #000; display: inline-block; font-family: Helvetica, Arial, Verdana, sans-serif; line-height: 47px; padding: 0 20px; text-decoration: none; }
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
 #nav ul li {list-style:none;float:left;position:relative; padding-right:0px 20px; margin:0; margin-right:5px; }
-#nav ul li a {color: #918b87;display: block;font-family:  'Alegreya Sans', sans-serif;font-weight: bold;text-align: left;text-shadow: none; border-right:none;}
+#nav ul li a {color: #918b87;display: block;font-family: 'Poppins', sans-serif;font-weight: bold;text-align: left;text-shadow: none; border-right:none;}
 #nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
 /*#nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }*/
 #nav ul li:first-child > a { border-radius: 5px 0 0 0; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; }
@@ -243,7 +243,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #leftbar-w {}
 #sidebar {clear:both; background-color: #F5F5F5; border: 1px solid #E3E3E3;border-radius: 4px 4px 4px 4px;box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;margin-bottom: 20px;min-height: 20px;}
 #sidebar .module {margin-bottom: 15px; width:100%;}
-#sidebar .module-title {color: #555;padding:8px 0 8px 18px;background:url("../images/arrow.png") no-repeat scroll 3% 50% #e2dbc8  ;font-family:  'Alegreya Sans', sans-serif; font-weight:normal; font-size: 18px;line-height: 100%;margin: 0;}
+#sidebar .module-title {color: #555;padding:8px 0 8px 18px;background:url("../images/arrow.png") no-repeat scroll 3% 50% #e2dbc8  ;font-family: 'Poppins', sans-serif; font-weight:normal; font-size: 18px;line-height: 100%;margin: 0;}
 #sidebar .module-title h3 { }
 #sidebar .module-body {background:none;padding:13px;}
 #sidebar .module-body p{padding:0; margin:0;}
@@ -289,7 +289,7 @@ ul.archive li { list-style:none; padding:0 0 0 10px;}
 .blog-featured {background:#fff;}
 .items-row {position: relative;clear:both;}
 .item-page { position:relative;}
-h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-weight:normal; font-family:  'Alegreya Sans', sans-serif; color: #e63682;}
+h2.item-page-title, .page-header h2 {padding-bottom: 3px; margin: 10px 0; font-weight:normal; font-family: 'Poppins', sans-serif; color: #e63682;}
 h2.item-page-title a, .leading-0 a, .page-header h2 a {padding: 5px 0 0px 0; color:#e63682;}
 h2.item-page-title a:hover, .leading-0 a:hover, .page-header h2 a:hover{text-decoration: underline;}
 
