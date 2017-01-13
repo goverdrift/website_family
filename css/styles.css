@@ -29,7 +29,7 @@ p {margin-top: 0;margin-bottom: 10px;}
 p em {font-style:italic;}
 blockquote { background:#eee; border:3px solid #ccc; margin:5px; padding:5px; font-size:18px; font-family:Arial, Helvetica, sans-serif; font-style:italic}
 element.style { height:auto;}
-hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0; padding:0;}
+hr { width:100%; clear:both; border:none; height:3px; background:#eee; margin:0; padding:0;}
 .clr {clear: both;}
 
 /* google maps iframe */
@@ -72,6 +72,14 @@ hr { width:100%; clear:both; border:none; height:2px; background:#eee; margin:0;
     div.textLeft {
         overflow: hidden;
     }
+
+    /* distance between the slideshows in reference-page */
+    div.referenzPage div.sliderRight {
+        margin-bottom: 60px;
+        margin-right: 60px;
+    }
+
+
 }
 
 /* Styles for screen 640px to 960px */
