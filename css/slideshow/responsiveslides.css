@@ -169,6 +169,14 @@
   margin: 0;
   max-width: none;
   }
+
+/* Styles for screen 959px and lower */
+@media screen and (max-width: 639px) {
+  .callbacks .caption {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}
     
 
 
