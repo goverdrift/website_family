@@ -183,6 +183,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #main-content {padding:0;}
 #wrapper {padding: 15px 3px;}
 .cols-3 .column-1 , .cols-3 .column-2, .cols-3 .column-3 {width:98%;}
+#slideshow .callbacks_nav {display:none;}
 }
 
 /*Styles for screen 0px and lower*/
@@ -215,7 +216,7 @@ nav a#pull:after { content: ""; background: url(../images/nav-icon.png) no-repea
 #nav ul {margin-left: 0px; padding:0; float:left; height:24px; list-style: none}
 #nav ul li {list-style:none;float:left;position:relative; padding-right:0px 20px; margin:0; margin-right:5px; }
 #nav ul li a {color: #918b87;display: block;font-family: 'Poppins', sans-serif;font-weight: bold;text-align: left;text-shadow: none; border-right:none;}
-#nav ul li a:hover { color:#c4c4c4; background:none; text-decoration:none;}
+#nav ul li a:hover { color:#c4c4c4; text-decoration:none;}
 /*#nav ul li:hover:after { content: ''; display: block; width: 0; height: 0; position: absolute; left: 50%; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #e63682; margin-left: -10px; }*/
 #nav ul li:first-child > a { border-radius: 5px 0 0 0; -moz-border-radius: 5px 0 0 0; -webkit-border-radius: 5px 0 0 0; }
 #nav ul li.active:after {border-bottom:none; margin-left: -10px; }

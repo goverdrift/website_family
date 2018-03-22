@@ -169,6 +169,14 @@
   margin: 0;
   max-width: none;
   }
+
+/* Styles for screen 959px and lower */
+@media screen and (max-width: 639px) {
+  .callbacks .caption {
+    font-size: 16px;
+    padding: 5px 20px;
+  }
+}
     
 
 
@@ -183,7 +191,7 @@
   height: 34px;
   width: 38px;
   background: transparent url(arrows.png) no-repeat left top;
-  bottom:15px;
+  bottom:7px;
   right: 49px;
   }
 
