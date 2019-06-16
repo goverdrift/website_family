@@ -37,6 +37,21 @@ p.contact {
     margin-left: 30px;
 }
 
+/* for contact portraits */
+.portrait-container {
+    text-align: center;
+}
+.portrait-container-ind {
+    display: inline-block;
+    text-align: left;
+    margin: 0 30px;
+	vertical-align: top;
+}
+
+.portrait-text {
+	margin-top: 10px;
+ }
+
 /* google maps iframe */
 .googleMaps {
     width:100%;
@@ -49,20 +64,37 @@ p.contact {
     .clearfix, div#main-content, .logo-container{ max-width:1280px; margin: 0 auto; }
     #nav ul li ul {width:1260px;}
     #nav ul li ul li a {font-size:15px;padding:0 30px 0 0; }
+    /* last navigation-element doesn't need so much padding-right */
     #nav ul li ul li:last-child a {padding:0 10px 0 0; }
     #sidebar {width:220px;}
     #centercontent_both {width: 52%; margin-left: 10px;}
     #centercontent_one {width:74%; margin-left: 19px;}
     .logo-container{text-align:right;}
+	/* contact portraits */
+	.portrait-img {
+        max-width: 250px; height: auto;
+    }
+	.portrait-text {
+		max-width: 250px;
+		font-size: 80%;
+	}
 }
 
 /* Style for screen 960px to 1280px */
 @media screen and (min-width: 960px) and (max-width: 1279px){
     #nav ul li ul {width:960px;}
     #nav ul li ul li a {font-size:12px; padding:0 17px 0 0;}
+    /* last navigation-element doesn't need so much padding-right */
     #nav ul li ul li:last-child a {padding:0 10px 0 0;}
     .logo img{float:right;}
-
+	/* contact portraits */
+	.portrait-img {
+        max-width: 250px; height: auto;
+    }
+	.portrait-text {
+		max-width: 250px;
+		font-size: 80%;
+	}
 }
 
 /*Styles for screen 960px and higher*/
@@ -96,6 +128,14 @@ p.contact {
     #leftbar-w {float:left; width:22%;}
     #centercontent_both {max-width: 52%; margin-left: 14px; }
     #centercontent_one {max-width:74%; margin-left: 19px;}
+	/* contact portraits */
+	.portrait-img {
+        max-width: 450px; height: auto;
+    }
+	.portrait-text {
+		max-width: 450px;
+		font-size: 80%;
+	}
 }
 
 /* Styles for screen 959px and lower */
